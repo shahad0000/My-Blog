@@ -2,10 +2,13 @@
   margin: 0%;
   padding: 0%;
 }
-html, body {
+
+html,
+body {
   margin: 0%;
   padding: 0%;
 }
+
 body {
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
@@ -20,9 +23,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px 3px  rgb(153, 152, 152);
+  box-shadow: 1px 1px 3px rgb(153, 152, 152);
 
 }
+
 .nav-items {
   width: 97%;
   height: 70%;
@@ -30,6 +34,7 @@ nav {
   gap: 0.6em;
   align-items: center;
 }
+
 .nav-items a {
   text-decoration: none;
   width: 7vw;
@@ -46,8 +51,9 @@ nav {
   background-color: rgba(49, 46, 46, 0.8);
 
 }
+
 /* header css start */
-.header-section  {
+.header-section {
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -62,14 +68,17 @@ nav {
   flex-direction: column;
   gap: 0.8em;
 }
+
 header p {
   font-size: medium;
 }
+
 .author-name {
   background-color: black;
   color: white;
   padding: 3px;
 }
+
 /* header end */
 
 
@@ -102,7 +111,7 @@ header p {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  box-shadow: 2px 5px 12px  rgb(153, 152, 152);
+  box-shadow: 2px 5px 12px rgb(153, 152, 152);
 }
 
 .story {
@@ -120,7 +129,8 @@ header p {
   font-weight: 300;
 }
 
-.description, .story h4 {
+.description,
+.story h4 {
   color: rgb(114, 113, 113);
   width: 99%;
   text-align: justify;
@@ -149,6 +159,7 @@ header p {
   height: auto;
   border: 1px solid black;
 }
+
 .more-info input {
   height: 70%;
   width: 20%;
@@ -164,7 +175,7 @@ header p {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  box-shadow: 2px 2px 7px  rgb(153, 152, 152);
+  box-shadow: 2px 2px 7px rgb(153, 152, 152);
 }
 
 .item2-content {
@@ -183,7 +194,7 @@ img {
 .item3 {
   grid-row: span 9;
   height: 100%;
-  box-shadow: 2px 3px 10px  rgb(153, 152, 152);
+  box-shadow: 2px 3px 10px rgb(153, 152, 152);
   background-color: white;
 }
 
@@ -196,6 +207,7 @@ img {
   align-items: center;
   justify-content: center;
 }
+
 .popular-header p {
   width: 93%;
   font-size: 1.3em;
@@ -210,7 +222,8 @@ img {
   border-bottom: 1px solid rgb(211, 205, 205);
 }
 
-.posts:hover, .more-info input:hover {
+.posts:hover,
+.more-info input:hover {
   background-color: rgb(204, 204, 204);
 }
 
@@ -234,7 +247,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 2px 5px 12px  rgb(153, 152, 152);
+  box-shadow: 2px 5px 12px rgb(153, 152, 152);
   background-color: white;
 }
 
@@ -245,7 +258,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 2px 3px 10px  rgb(153, 152, 152);
+  box-shadow: 2px 3px 10px rgb(153, 152, 152);
   background-color: white;
 }
 
@@ -286,6 +299,7 @@ img {
   width: 17%;
   text-align: center;
 }
+
 /* artical end */
 
 footer {
@@ -335,12 +349,15 @@ footer button:hover {
 .greeting-signin {
   font-size: 3em;
   font-weight: 1000;
+  color: rgb(51, 51, 109);
+
 }
 
 .greeting-signup {
   font-size: 2em;
   text-align: center;
   font-weight: 700;
+  color: rgb(51, 51, 109);
 }
 
 form {
@@ -353,11 +370,13 @@ form {
   gap: 0.3em;
   font-size: 1.1em;
 }
+
 .signin-form {
   height: 60%;
   width: 90%;
 
 }
+
 form input {
   width: 90%;
   height: 10%;
@@ -371,33 +390,38 @@ form label {
   font-size: 1.2em;
   font-weight: 800;
 }
+
 form input:focus {
   outline: none;
 }
 
-.signup-btn, .signin-btn {
+.signup-btn,
+.signin-btn {
   width: 40%;
-  background-color: rgb(63, 63, 119);
+  background-color: rgb(15, 15, 18);
   border: none;
   color: white;
   font-size: 1em;
   border-radius: 4px;
 }
+
 .signin-btn {
   height: 7vh;
 }
+
 .signup-btn {
   height: 10vh;
 
 }
 
 form button:hover {
-  background-color: rgb(56, 56, 100);
+  background-color: rgb(63, 63, 70);
 }
 
 form div {
   width: 90%;
 }
+
 form a {
   color: rgb(33, 24, 101);
 }

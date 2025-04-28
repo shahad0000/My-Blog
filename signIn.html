@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sign In</title>
 </head>
 <body>
-    
+    <div class="signIn-container">
+
+        <div class="form-container">
+            <p class="greeting-signin">Welcome back!</p>
+            <p>We missed your curious spirit</p>
+            <form class="signin-form">          
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br><br>
+                <button class="signin-btn">Sign In</button>
+                <br><br>
+                <div>
+                    <p>Don't have an account? <a href="signUp.html">Sign Up here</a></p>
+                    <br>
+                    <a href="index.html">Continue without signing in</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

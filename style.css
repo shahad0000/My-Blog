@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #f1f1f1;
+}
+/* header css start */
+.header-section {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.author-name {
+  background-color: black;
+  color: white;
+}
+
+/* header end */
+
+/* article start */
+.contant {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  /* border: 1px solid rgb(255, 0, 204); */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  width: 95vw;
+}
+.item1 {
+  /* background-color: blue; */
+  height: 80vh;
+  grid-row: 1/3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.story {
+  /* border: 5px solid rgb(234, 255, 0); */
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  text-align: justify;
+  width: 95%;
+}
+.more-info {
+  /* border: 5px solid rgb(255, 0, 204); */
+  height: 30vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 15%;
+  /* border: 5px solid rgb(93, 0, 255); */
+}
+.Comments button {
+  background-color: black;
+  color: white;
+  width: 20%;
+}
+.more-info input {
+  height: 70%;
+  width: 20%;
+}
+.item2 {
+  background-color: blueviolet;
+}
+.item3 {
+  box-shadow: 5px 5px 5px rgb(128, 127, 127);
+  height: 50vh;
+}
+.Popular-header {
+  height: 8vh;
+  background-color: #dcd9d9;
+}
+.Posts {
+  display: flex;
+  /* border: 5px solid rgb(93, 0, 255); */
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+.post-title {
+  /* border: 5px solid rgb(93, 0, 255); */
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.item3 img {
+  width: 15%;
+}
+.item4 {
+  grid-row: 3 / 6;
+  height: 80vh;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.item5 {
+  background-color: chocolate;
+}
+/* artical end */
